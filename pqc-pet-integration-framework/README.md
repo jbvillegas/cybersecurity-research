@@ -2,6 +2,6 @@
 
 This paper presents a conceptual framework for integrating NIST-standardized post-quantum cryptography (PQC) with privacy-enhancing technologies (PETs) across critical infrastructure sectors, addressing the critical gap between quantum-resistant cryptographic primitives and the privacy mechanisms that protect operational systems. Through a design science synthesis of 15 peer-reviewed sources, the framework identifies three primary integration barriers—algorithmic overhead (e.g., larger keys and signatures from lattice-based schemes like ML-KEM and ML-DSA), primitive incompatibility (many PETs still rely on classical assumptions), and deployment constraints (amplified in resource-constrained environments)—and proposes four architectural design patterns: the Hybrid Layered Security Architecture, the Privacy-Preserving Audit Framework, the Post-Quantum Secure Federated Learning pattern, and the Logarithmic-Scale Ring Privacy pattern, along with sector-specific guidance for healthcare, finance, cloud computing, and intelligent transportation. 
 
-## Key Findings
+# Key Findings
 
 The key findings underscore that post-quantum readiness requires more than replacing RSA or ECC; it demands a fundamental rethinking of the privacy layer, and while the framework provides a structured foundation for migration planning, it remains conceptual and requires future empirical validation through pilot deployments, simulation studies, and standardization efforts for quantum-resistant privacy technologies.
